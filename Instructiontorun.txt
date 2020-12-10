@@ -1,0 +1,10 @@
+To run this program :
+
+1.Install ruby in the system.
+2.change the directory path to where you have saved this program file.
+3.Enter "irb" you will get into ruby console.
+4.then type require "./data_store.rb"
+5.create a folder store ,store = DataStore.new
+6.To create the command is, store.create("key", {"name": "Value"}, 100)
+7.To read the command is, store.read("key")
+8.To delete the data command is, store.delete("key")
